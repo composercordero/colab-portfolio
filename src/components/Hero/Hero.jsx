@@ -1,4 +1,5 @@
-import heroLogo from '../assets/goldenBlob.svg'
+import heroLogo from '../../assets/heroLogo.png'
+import './hero.css'
 
 const Hero = () => {
   return (

@@ -1,11 +1,14 @@
 import { Link, animateScroll as scroll } from "react-scroll"
-import logo from '../../assets/goldenBlob.svg'
+import './header.css'
+
 
 const Header = () => {
-  return (
+    return (
     <>
+        <header>
+        <div className="header-container">
         <div className="header-logo">
-            <img src={logo} alt="CARLOS" />
+            <h2>Carlos</h2>
         </div>
         <div className="header-menu">
             <ul>
@@ -19,7 +22,9 @@ const Header = () => {
                 <button>Change Mode</button>
             </div>
         </div>
+        </div>
+        </header>
     </>
-  )
+    )
 }
 export default Header

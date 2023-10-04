@@ -1,5 +1,5 @@
 import blueBlob from '../assets/blueBlob.svg'
-import carlos from '../assets/carlos.jpeg'
+import carlos from '../assets/carlos.png'
 
 const Bio = () => {
     return (<>
