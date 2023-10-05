@@ -28,3 +28,10 @@ footer{
 .icons a:hover{
     color: #1bc231;
 }
+
+@media (max-width: 1080px){
+    .footer-container{
+        flex-direction: column;
+        width:95%;
+    }
+}

@@ -1,0 +1,66 @@
+.project-card{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 2rem;
+}
+
+.project-title{
+    font-size:1.5rem;
+}
+
+.project-description{
+    line-height: 2;
+    margin-top:2rem;
+}
+
+.project-tech{
+    display:flex;
+    gap:2rem;
+    margin: 2rem 0;
+    flex-wrap:wrap
+}
+
+.project-tech li{
+    list-style: none;
+    border: solid 1px #242424;
+    border-radius: 20px;
+    padding:0.5rem 1rem;
+}
+
+.button a {
+    text-decoration: none;
+    background-color: #242424;
+    border-radius: 25px;
+    padding:1rem 1.5rem;
+    font-size:1rem;
+    color: #fff
+}
+
+@media (max-width:1080px){
+    .project-title-container{
+        justify-content: center;
+        gap:2rem;
+    }
+
+    .project-title{
+        flex-basis: 100%;
+    }
+
+    .project-card{
+        text-align: center;
+    }
+
+    .project-tech{
+        justify-content: center;
+    }
+
+}

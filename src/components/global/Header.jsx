@@ -10,18 +10,18 @@ const Header = () => {
         <div className="header-logo">
             <h2>Carlos</h2>
         </div>
-        <div className="header-menu">
+        <nav className="header-menu">
             <ul>
-                <li><Link to='/' spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
-                <li><Link to='bio' spy={true} smooth={true} offset={50} duration={500}>Bio</Link></li>
-                <li><Link to='projects' spy={true} smooth={true} offset={50} duration={500}>Projects</Link></li>
-                <li><Link to='dance' spy={true} smooth={true} offset={50} duration={500}>Dance</Link></li>
-                <li><a href='https://docs.google.com/document/d/1peIeA7j-sQuOlP-WIZDSgIImkbW0KWiZl3LBgi2S9CM/edit?usp=sharing' target='_blank'></a>Resume</li>
+                <li className="nav-item"><Link to='hero' offset={-100} duration={500} activeClass="active" >Home</Link></li>
+                <li className="nav-item"><Link to='bio' spy={true} smooth={true} offset={-100} duration={500} activeClass="active">Bio</Link></li>
+                <li className="nav-item"><Link to='project' spy={true} smooth={true} offset={-280} duration={500} activeClass="active">Projects</Link></li>
+                <li className="nav-item"><Link to='spotify' spy={true} smooth={true} offset={-100} duration={500} activeClass="active">Dance</Link></li>
+                <li><a href='https://docs.google.com/document/d/1peIeA7j-sQuOlP-WIZDSgIImkbW0KWiZl3LBgi2S9CM/edit?usp=sharing' target='_blank'>Resume</a></li>
             </ul>
             <div className="mode">
                 <button>Change Mode</button>
             </div>
-        </div>
+        </nav>
         </div>
         </header>
     </>
