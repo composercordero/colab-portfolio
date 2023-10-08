@@ -1,0 +1,21 @@
+.spotify-card-image{
+    display: flex;
+}
+
+.spotify-card-container img{
+    width: 200px;
+    height: auto;
+}
+
+/* .spotify-card-container{
+    border: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 2rem;
+} */
+
+.spotify-card-title{
+    text-align: center;
+    font-size: 1rem;
+}
